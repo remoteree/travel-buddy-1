@@ -1,0 +1,27 @@
+{
+  "name": "travel-buddy-1",
+  "version": "1.0.0",
+  "description": "Build a travel buddy finder Travel buddy is a web application that helps you find a buddy, ready to join you in your next venture!!!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remoteree/travel-buddy-1.git"
+  },
+  "engines": {
+    "node": "16.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remoteree/travel-buddy-1/issues"
+  },
+  "homepage": "https://github.com/remoteree/travel-buddy-1#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
