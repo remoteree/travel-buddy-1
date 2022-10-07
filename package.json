@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/remoteree/travel-buddy-1.git"
+  },
+  "engines": {
+    "node": "16.16.0"
   },
   "keywords": [],
   "author": "",
